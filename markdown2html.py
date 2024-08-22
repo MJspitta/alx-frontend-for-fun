@@ -13,7 +13,7 @@ md_file = sys.argv[1]
 output_file = sys.argv[2]
 
 if not os.path.isfile(md_file):
-    sys.stderr.write("Missing {}\n", md_file)
+    sys.stderr.write(f"Missing {md_file}\n")
     sys.exit(1)
 
 with open(md_file, 'r') as mdfile:
