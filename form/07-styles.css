@@ -855,7 +855,7 @@
     position: relative;
     width: 15rem;
     z-index: 1;
-    border-bottom: .1rem solid var(--color-green);
+    border-bottom: .1rem solid var(--color-grey);
     padding: 0;
     cursor: text;
     margin: 0 1rem;
